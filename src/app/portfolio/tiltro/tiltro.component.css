@@ -1,0 +1,78 @@
+.logo {
+  background-image: url(../../../images/Tiltro/logo.png);
+  width: 60%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 25%;
+}
+
+.subline {
+  font-size: 25px;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.text {
+  word-break: keep-all;
+  font-size: 13px;
+  color: #424242;
+  opacity: 1;
+}
+p{
+  color: #424242;
+}
+.link{
+  font-size:1.1em;
+  line-height: 1.7em;
+  text-decoration: none;
+  color:#424242;
+}
+
+.image {
+  margin-bottom: 1%;
+}
+
+.wide {
+  background-image: url(../../../images/tiltro/bagkant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+.low {
+  background-image: url(../../../images/tiltro/open2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  height: 450px;
+}
+
+.hjerte {
+  background-image: url(../../../images/Tiltro/open4.jpg);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-position: center center;
+}
+
+.tal {
+  background-image: url(../../../images/Tiltro/open3.jpg);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bund {
+  background-image: url(../../../images/tiltro/open6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  height: 450px;
+}
+
+.content {}

@@ -1,0 +1,232 @@
+.grid {
+  max-width: 1800px;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.title {
+  color: #424242;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.text {
+  color: #424242;
+  font-size: 15px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+  color: #424242;
+}
+
+.grid-item {
+  display: block;
+  width: 30%;
+}
+
+.grid-item {
+  height: 400px;
+  float: left;
+}
+
+.grid-item--width2 {
+  width: 60%;
+}
+
+.grid-item--width3 {
+  width: 90%;
+}
+
+.grid-item--height2 {
+  height: 800px;
+}
+
+.grid-item--height3 {
+  height: 1200px;
+}
+
+.grid-item--height4 {
+  height: 1600px;
+}
+
+.positionrel {
+  position: relative;
+}
+
+.firstBox {
+  background-image: url(../../images/tiltro/blade1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secondBox {
+  background-image: url(../../images/360grader.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thirdBox {
+  background-image: url(../../images/event.jpg);
+  background-repeat: no-repeat;
+  background-position: center top; 
+  background-size:cover;
+  
+}
+
+.fourthBox {
+  background-image: url(../../images/resterods.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fifthBox {
+  background-image: url(../../images/hhh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sixthBox {
+  background-image: url(../../images/cykelmotion.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seventhBox {
+  background-image: url(../../images/plakat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.firstBox:hover .overlay {
+  opacity: 0.75;
+}
+
+.secondBox:hover .overlay {
+  opacity: 0.75;
+}
+
+.thirdBox:hover .overlay {
+  opacity: 0.75;
+}
+
+.fourthBox:hover .overlay {
+  opacity: 0.75;
+}
+
+.fifthBox:hover .overlay {
+  opacity: 0.75;
+}
+
+.sixthBox:hover .overlay {
+  opacity: 0.75;
+}
+
+.seventhBox:hover .overlay {
+  opacity: 0.75;
+}
+
+.eigthBox:hover .overlay {
+  opacity: 0.75;
+}
+
+.ninthBox:hover .overlay {
+  opacity: 0.75;
+}
+
+.tenthBox:hover .overlay {
+  opacity: 0.75;
+}
+
+@media (max-width: 1400px) {
+  .grid {
+    max-width: 1200px;
+    margin-left: 10%
+  }
+}
+
+@media (max-width: 1000px) {
+  .text {
+    display: none;
+  }
+  .grid-item {
+    height: 300px;
+  }
+  .grid-item--height2 {
+    height: 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  .grid {
+    max-width: 1200px;
+    margin: 5%
+  }
+  .grid-item {
+    width: 100%;
+    margin-bottom: 20%;
+  }
+  .grid-item {
+    height: 300px;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    height: 20%;
+    width: 100%;
+    opacity: 1;
+  }
+  .firstBox:hover .overlay {
+    opacity: 1;
+  }
+  .secondBox:hover .overlay {
+    opacity: 1;
+  }
+  .thirdBox:hover .overlay {
+    opacity: 1;
+  }
+  .fourthBox:hover .overlay {
+    opacity: 1;
+  }
+  .fifthBox:hover .overlay {
+    opacity: 1;
+  }
+  .sixthBox:hover .overlay {
+    opacity: 1;
+  }
+  .seventhBox:hover .overlay {
+    opacity: 1;
+  }
+  .eigthBox:hover .overlay {
+    opacity: 1;
+  }
+  .ninthBox:hover .overlay {
+    opacity: 1;
+  }
+  .tenthBox:hover .overlay {
+    opacity: 1;
+  }
+}
