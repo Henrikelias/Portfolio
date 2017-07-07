@@ -1,0 +1,8 @@
+.selfie{
+    background-image: url(../../images/selfie2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:cover;
+  height: 375px;
+  width:100%;
+}
