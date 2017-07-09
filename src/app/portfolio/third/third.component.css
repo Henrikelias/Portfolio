@@ -1,0 +1,120 @@
+.logo {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 100px;
+  font-size: 150px;
+  text-align: center;
+  word-break: keep-all;
+}
+
+
+.subline {
+  font-size: 75px;
+  margin-bottom: 10%;
+  font-weight: 200;
+}
+
+.text {
+  word-break: keep-all;
+  font-size: 13px;
+  color: #424242;
+  opacity: 1;
+}
+
+p {
+  color: #424242;
+}
+
+.link {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  text-decoration: none;
+  color: #424242;
+}
+
+.image {
+  margin-bottom: 1%;
+}
+
+.wide {
+  background-image: url(../../../images/third/moon.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  height: 800px;
+}
+
+.tal {
+  background-image: url(../../../images/third/mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 800px;
+}
+
+.low {
+  background-image: url(../../../images/third/giraf.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 500px;
+}
+
+
+
+.content {}
+
+@media (max-width: 990px) {
+  .logo {
+    margin-bottom: 50px;
+    height: 150px;
+    font-size:75px;
+    text-align: center;
+  }
+  .tal {
+    height: 700px;
+    background-size:contain;
+  }
+  .low {
+    height: 450px;
+    background-size:contain;
+  }
+  .wide {
+    height:900px;
+  }
+}
+
+@media (max-width: 660px) {
+  .logo {
+    margin-bottom: 50px;
+    height: 150px;
+  }
+  .tal {
+    height: 500px;
+    
+  }
+  .low {
+    height: 300px;
+  }
+  .wide {
+    height:600px;
+  }
+}
+
+@media (max-width: 430px) {
+  .logo {
+    margin-bottom: 50px;
+    height: 150px;
+  }
+  .tal {
+    height: 450px;
+    
+  }
+  .low {
+    height: 250px;
+  }
+  .wide {
+    height:400px;
+  }
+}

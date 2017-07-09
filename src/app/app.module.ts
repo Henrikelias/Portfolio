@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TiltroComponent } from './portfolio/tiltro/tiltro.component';
 import { SecondComponent } from './portfolio/second/second.component';
+import { ThirdComponent } from './portfolio/third/third.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SecondComponent } from './portfolio/second/second.component';
     ContactComponent,
     PortfolioComponent,
     TiltroComponent,
-    SecondComponent
+    SecondComponent,
+    ThirdComponent
   ],
   imports: [
     BrowserModule,
