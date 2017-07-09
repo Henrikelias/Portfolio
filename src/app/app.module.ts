@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TiltroComponent } from './portfolio/tiltro/tiltro.component';
+import { SecondComponent } from './portfolio/second/second.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TiltroComponent } from './portfolio/tiltro/tiltro.component';
     HeaderComponent,
     ContactComponent,
     PortfolioComponent,
-    TiltroComponent
+    TiltroComponent,
+    SecondComponent
   ],
   imports: [
     BrowserModule,

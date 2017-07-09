@@ -1,0 +1,85 @@
+.logo {
+  background-image: url(../../../images/second/rlogo.png);
+  width: 60%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 100px;
+}
+
+.head {
+  margin-left: 15%;
+}
+
+.subline {
+  font-size: 25px;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.text {
+  word-break: keep-all;
+  font-size: 13px;
+  color: #424242;
+  opacity: 1;
+}
+
+p {
+  color: #424242;
+}
+
+.link {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  text-decoration: none;
+  color: #424242;
+}
+
+.image {
+  margin-bottom: 1%;
+}
+
+.wide {
+  background-image: url(../../../images/second/wagon1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.low {
+  background-image: url(../../../images/second/wagon2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.tal {
+  background-image: url(../../../images/second/wagon3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.content {}
+
+@media (max-width: 990px) {
+  .head {
+    margin-left: 36%;
+  }
+  .logo {
+    margin-bottom: 50px;
+    height: 150px;
+  }
+  .tal {
+    height: 300px;
+  }
+  .low {
+    height: 300px;
+  }
+  .wide {
+    height:300px;
+  }
+}

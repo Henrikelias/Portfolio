@@ -1,3 +1,4 @@
+import { SecondComponent } from './portfolio/second/second.component';
 import { TiltroComponent } from './portfolio/tiltro/tiltro.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
@@ -11,7 +12,8 @@ const routes: Routes = [
   { path: 'portfolio',  component: PortfolioComponent },
   { path: 'about', component: AboutComponent},
   { path: 'contact', component: ContactComponent},
-  { path: 'tiltro', component: TiltroComponent}
+  { path: 'tiltro', component: TiltroComponent},
+  { path: 'second', component: SecondComponent}
 
 ];
 
