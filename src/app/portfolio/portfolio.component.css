@@ -78,44 +78,56 @@
   background-image: url(../../images/tiltro/blade1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all .5s ease;
+  
+}
+
+.positionrel:hover {
+  transform: scale(1.03);
+  z-index: 2;
 }
 
 .secondBox {
-  background-image: url(../../images/360grader.png);
+  background-image: url(../../images/360grader.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all .5s ease;
 }
 
 .thirdBox {
   background-image: url(../../images/event.jpg);
   background-repeat: no-repeat;
-  background-position: center top; 
-  background-size:cover;
-  
+  background-position: center top;
+  background-size: cover;
+  transition: all .5s ease;
 }
 
 .fourthBox {
   background-image: url(../../images/resterods.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all .5s ease;
 }
 
 .fifthBox {
   background-image: url(../../images/hhh.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all .5s ease;
 }
 
 .sixthBox {
-  background-image: url(../../images/cykelmotion.png);
+  background-image: url(../../images/cykelmotion.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all .5s ease;
 }
 
 .seventhBox {
   background-image: url(../../images/plakat.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all .5s ease;
 }
 
 .firstBox:hover .overlay {

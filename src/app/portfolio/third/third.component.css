@@ -104,8 +104,8 @@ p {
 
 @media (max-width: 430px) {
   .logo {
-    margin-bottom: 50px;
-    height: 150px;
+    margin-bottom: 10px;
+    height: 100px;
   }
   .tal {
     height: 450px;
